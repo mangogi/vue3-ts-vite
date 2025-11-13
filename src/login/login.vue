@@ -96,7 +96,7 @@ const router = useRouter()
 const route = useRoute()
 const toMain = () => {
   console.log('submit!')
-  router.push({name:'main'})
+  router.push({path:'/main'})
 
 }
 </script>

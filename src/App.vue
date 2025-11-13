@@ -2,5 +2,15 @@
 </script>
 
 <template>
-  <RouterView></RouterView>
+  <div id="app">
+    <RouterView></RouterView>
+  </div>
+  
 </template>
+
+<style scoped>
+#app {
+  width: 100%;
+  height: 100%;
+}
+</style>
